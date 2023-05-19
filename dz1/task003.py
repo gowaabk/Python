@@ -8,7 +8,7 @@
 from random import randint
 
 LOWER_LIMIT = 0
-UPPER_LIMIT = 10
+UPPER_LIMIT = 1000
 number_of_attempts = 10
 num = randint(LOWER_LIMIT, UPPER_LIMIT)
 count = 0
