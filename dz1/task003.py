@@ -8,21 +8,25 @@
 from random import randint
 
 LOWER_LIMIT = 0
-UPPER_LIMIT = 1000
+UPPER_LIMIT = 10
 number_of_attempts = 10
 num = randint(LOWER_LIMIT, UPPER_LIMIT)
 count = 0
+result = None
 # print(num)
-print("Угадайте загаданное число за ", number_of_attempts, " попыток")
+print(f"Угадайте загаданное число за {number_of_attempts} попыток")
 while count < number_of_attempts:
     count += 1
     print("Попытка номер ", count)
-    number = int(input("Введите число от 0 до 1000 --> "))
+    number = int(
+        input(f"Введите число от {LOWER_LIMIT} до {UPPER_LIMIT} --> "))
     if number > num:
-        print("Меньше")
+        result = "Меньше"
     elif number < num:
-        print("Больше")
+        result = "Больше"
     else:
         print("Угадал")
         break
-print("Не угадал((")
+    if count == number_of_attempts:
+        result = "Не угадал(("
+    print(result)
