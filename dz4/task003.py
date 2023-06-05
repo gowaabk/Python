@@ -18,7 +18,6 @@ class Bank:
     _TAX = 0.10
     _OPERATION: int
     _OPERATIONS: list[str]
-
     def __init__(self):
         self._OPERATION = 0
         self._OPERATIONS = dict()
@@ -97,11 +96,11 @@ class Bank:
 
 
 bank = Bank()
-print(bank.start(mode='in', cash=4000000))
-print(bank.start(mode='in', cash=100000))
-print(bank.start(mode='out', cash=100000))
-print(bank.start(mode='in', cash=100000))
+print(bank.start(mode='in', cash=4000))
+print(bank.start(mode='in', cash=1000))
+print(bank.start(mode='out', cash=1000))
+print(bank.start(mode='in', cash=1000))
 print(bank.start(mode='in', cash=1000000))
-print(bank.start(mode='in', cash=2000000))
+print(bank.start(mode='in', cash=200000))
 print(bank.start(mode='out', cash=1000000))
 print(bank.start(mode='show'))
