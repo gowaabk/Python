@@ -1,0 +1,74 @@
+[
+  {
+    "name": "temp",
+    "type": "dir",
+    "dirs": "c:\\temp",
+    "size": 0
+  },
+  {
+    "name": "1",
+    "type": "dir",
+    "dirs": "c:\\temp\\1",
+    "size": 0
+  },
+  {
+    "name": "ert",
+    "type": "dir",
+    "dirs": "c:\\temp\\1\\ert",
+    "size": 0
+  },
+  {
+    "name": "2",
+    "type": "dir",
+    "dirs": "c:\\temp\\2",
+    "size": 0
+  },
+  {
+    "name": "787yyy",
+    "type": "dir",
+    "dirs": "c:\\temp\\2\\787yyy",
+    "size": 0
+  },
+  {
+    "name": "readme.txt",
+    "type": "file",
+    "dirs": "c:\\temp\\2\\787yyy",
+    "size": 10
+  },
+  {
+    "name": "3",
+    "type": "dir",
+    "dirs": "c:\\temp\\3",
+    "size": 0
+  },
+  {
+    "name": "qwe",
+    "type": "dir",
+    "dirs": "c:\\temp\\qwe",
+    "size": 0
+  },
+  {
+    "name": "zxc",
+    "type": "dir",
+    "dirs": "c:\\temp\\zxc",
+    "size": 0
+  },
+  {
+    "name": "read.json",
+    "type": "file",
+    "dirs": "c:\\temp\\zxc",
+    "size": 6
+  },
+  {
+    "name": "Каталог",
+    "type": "dir",
+    "dirs": "c:\\temp\\Каталог",
+    "size": 0
+  },
+  {
+    "name": "реадми файл.txt",
+    "type": "file",
+    "dirs": "c:\\temp\\Каталог",
+    "size": 62
+  }
+]
